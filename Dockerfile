@@ -1,6 +1,4 @@
-FROM ruby:2.4.0-slim
-
-RUN apt-get -y install curl
+FROM ruby:2.4.0
 
 # Go
 RUN curl -sSL https://storage.googleapis.com/golang/go1.7.5.linux-amd64.tar.gz | tar Cxz /usr/local 
