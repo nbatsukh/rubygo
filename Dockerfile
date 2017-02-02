@@ -9,4 +9,3 @@ ENV PATH ${PATH}:${GOPATH}
 # Gems
 RUN gem install os --no-ri --no-rdoc
 
-CMD ["go", "version"]
